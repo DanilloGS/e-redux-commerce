@@ -2,7 +2,7 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 const SLICE_NAME = "cart";
 
-interface ICartSlice {
+export interface ICartSlice {
   productsStack: Product[];
 }
 
