@@ -4,11 +4,7 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "@data": ["@data/*"],
-      "@infrastructure": ["@infrastructure/*"],
-      "@main": ["@main/*"],
-      "@domain": ["@domain/*"],
-      "@presentation": ["@presentation/*"]
+      "_/*": ["./*"]
     }
   }
 }
